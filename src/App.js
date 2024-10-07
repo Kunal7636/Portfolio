@@ -22,4 +22,5 @@ function App() {
   );
 }
 
+// added a comment
 export default App;
