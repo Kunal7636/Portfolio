@@ -13,18 +13,21 @@
 
 .stat-item {
     flex: 1;
+    font-size: 4rem; 
     text-align: center;
+    font-weight: 800;
     padding: 0 20px;
 }
 
 .stat-item h2 {
-    font-size: 2.5rem;
+    font-size: 4rem; 
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .stat-item p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
     margin: 0;
 }
 
@@ -188,6 +191,14 @@ html, body {
     }
     .stat-item {
         margin-bottom: 20px;
+    }
+
+    .stat-item h2 {
+        font-size: 3rem;  /* Slightly smaller on mobile */
+    }
+
+    .stat-item p {
+        font-size: 1.2rem;  /* Adjust text size for mobile */
     }
 
     .what-i-bring {
