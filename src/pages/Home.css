@@ -142,7 +142,7 @@ html, body {
         height: auto;
     }
     .avatar-full-body {
-        width: 235px;
+        width: 225px;
         height: auto;
         object-fit: contain;
     }
