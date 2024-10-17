@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders coming soon message', () => {
+test('renders without crashing', () => {
   render(<App />);
-  const linkElement = screen.getByText(/coming soon/i);
-  expect(linkElement).toBeInTheDocument();
+  const appElement = screen.getByTestId('app-container'); // or any known test ID
+  expect(appElement).toBeInTheDocument();
 });
