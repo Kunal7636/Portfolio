@@ -1,4 +1,33 @@
 /* Reset for all elements to avoid default padding and margin */
+
+/* Profile Stats Section */
+.profile-stats {
+    display: flex;
+    justify-content: center; /* Centers the stats horizontally */
+    align-items: center;
+    margin-top: 40px; /* Adjust margin as needed */
+    padding: 40px 0; /* Add padding to top and bottom */
+    color: #fff; /* White text color */
+    border-radius: 10px;
+}
+
+.stat-item {
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.stat-item h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.stat-item p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +59,7 @@ html, body {
 
 /* The remaining background color after the image */
 .background-bottom {
-    background: radial-gradient(circle at 50% 50%, #7b1fa2, #4B0082 40%, #2c003e 80%);
+    background: linear-gradient(135deg, #000000, #0a0a5c);
     padding-top: 100px;
     min-height: 50vh;
     position: relative;
@@ -42,7 +71,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 250px;
+    padding-bottom: 150px;
     margin-bottom: 60px;
     border-bottom: 1px solid #ddd;
     position: relative; /* To contain the absolutely positioned avatar */
@@ -156,6 +185,9 @@ html, body {
         text-align: center; /* Center align the content */
         padding-bottom: 20px; /* Adjust padding to prevent too much space */
         margin-bottom: 0; /* Prevent extra space between sections */
+    }
+    .stat-item {
+        margin-bottom: 20px;
     }
 
     .what-i-bring {
